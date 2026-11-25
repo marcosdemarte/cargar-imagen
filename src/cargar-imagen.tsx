@@ -30,8 +30,9 @@ export const CargarImagen = ({
     <div
       className={`cargar-imagen ${className}`}
       style={{
-        width: `${width}px`,
-        height: `${height}px`,
+        width: "100%",
+        height: "100%",
+        position: "relative",
         ...style,
       }}>
       {/* Pulso visible mientras la imagen no cargó: circulo si es cuadrada, rectangulo si no */}
@@ -47,8 +48,7 @@ export const CargarImagen = ({
       <Image
         src={src}
         alt={alt}
-        width={width}
-        height={height}
+        fill
         priority={priority}
         loading={priority ? undefined : "eager"}
         onLoad={() => setLoaded(true)}
