@@ -18,14 +18,15 @@ export default async function Page({
   return (
     <main className="prueba">
       <h2 className="prueba__titulo">cargador de imagenes</h2>
-
-      <CargarImagen
-        src="/powerbit1.jpg"
-        alt={"alt imagen"}
-        width={152}
-        height={152}
-        className={``}
-      />
+      <div className="proyecto__imagen">
+        <CargarImagen
+          src="/powerbit1.jpg"
+          alt={"alt imagen"}
+          width={500}
+          height={500}
+          className={``}
+        />
+      </div>
     </main>
   );
 }

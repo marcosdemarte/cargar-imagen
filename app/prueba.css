@@ -41,3 +41,14 @@ body {
   letter-spacing: -0.02em;
   line-height: 1.1;
 }
+
+.proyecto__imagen {
+  aspect-ratio: 1;
+  border: 1px solid var(--c-borde, #dfe3e9);
+  background: #f7f8fa;
+  border-radius: 20px;
+  margin: 0;
+  overflow: hidden;
+  width: 500px;
+  height: 500px;
+}
