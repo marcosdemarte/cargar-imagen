@@ -1,5 +1,5 @@
 {
-  "name": "@marcosdemarte/cargar-imagenes",
+  "name": "@marcosdemarte/cargar-imagen",
   "version": "1.0.0",
   "description": "cargador de imagenes ",
   "main": "src/index.ts",
@@ -22,7 +22,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/marcosdemarte/cargar-imagenes.git"
+    "url": "git+https://github.com/marcosdemarte/cargar-imagen.git"
   },
   "peerDependencies": {
     "react": ">=18",
