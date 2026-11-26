@@ -19,13 +19,7 @@ export default async function Page({
     <main className="prueba">
       <h2 className="prueba__titulo">cargador de imagenes</h2>
       <div className="proyecto__imagen">
-        <CargarImagen
-          src="/powerbit1.jpg"
-          alt={"alt imagen"}
-          width={500}
-          height={500}
-          className={``}
-        />
+        <CargarImagen src="/powerbit1.jpg" alt={"alt imagen"} className={``} />
       </div>
     </main>
   );

@@ -6,8 +6,6 @@ import Image from "next/image";
 export interface PreCargaImagenProps {
   src: string;
   alt: string;
-  width: number;
-  height: number;
   priority?: boolean;
   circle?: boolean;
   className?: string;
@@ -17,8 +15,6 @@ export interface PreCargaImagenProps {
 export const CargarImagen = ({
   src,
   alt,
-  width,
-  height,
   priority = false,
   circle = false,
   className = "",
